@@ -1,37 +1,48 @@
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto%;
-    padding-top: 80px ;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto%;
+  padding-top: 80px;
 }
 
 input {
-    padding-left: 250px;
-    padding-top: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    border-radius: 20px;
-    scale: auto;
+  padding-left: 250px;
+  padding-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  scale: auto;
 }
 
 #buttons {
-    text-align: center;
-    padding-top: 20px;
-    
-   
+  text-align: center;
+  padding-top: 20px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    display: flex;  
-    justify-content: space-between;
+#leftpage {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.right{
-    flex-direction: row-reverse;
+#footer {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0px;
+}
+
+.bottom {
+}
+
+.right {
+  flex-direction: row-reverse;
 }
